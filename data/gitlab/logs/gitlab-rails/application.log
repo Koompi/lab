@@ -1,0 +1,11 @@
+# Logfile created on 2019-02-23 02:55:53 +0000 by logger.rb/61378
+February 23, 2019 02:55: User "Administrator" (admin@example.com) was created
+February 23, 2019 02:58: Successful Login: username=root ip=172.17.0.1 method=standard admin=true
+February 23, 2019 08:14: User Logout: username=root ip=172.17.0.1
+February 23, 2019 08:14: Successful Login: username=root ip=172.17.0.1 method=standard admin=true
+February 23, 2019 08:55: User Logout: username=root ip=172.17.0.1
+February 23, 2019 08:55: Successful Login: username=root ip=172.17.0.1 method=standard admin=true
+February 23, 2019 08:59: User Logout: username=root ip=172.17.0.1
+February 23, 2019 09:07: Successful Login: username=root ip=172.17.0.1 method=standard admin=true
+February 23, 2019 09:09: User Logout: username=root ip=172.17.0.1
+February 23, 2019 09:10: Successful Login: username=root ip=172.17.0.1 method=standard admin=true

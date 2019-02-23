@@ -1,0 +1,36 @@
+I, [2019-02-23T02:56:29.074553 #1106]  INFO -- : Refreshing Gem list
+I, [2019-02-23T02:57:26.372186 #1106]  INFO -- : listening on addr=127.0.0.1:8080 fd=22
+I, [2019-02-23T02:57:26.372497 #1106]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=23
+I, [2019-02-23T02:57:26.508128 #1106]  INFO -- : master process ready
+I, [2019-02-23T02:57:26.574021 #1544]  INFO -- : worker=1 ready
+I, [2019-02-23T02:57:26.610109 #1550]  INFO -- : worker=3 ready
+I, [2019-02-23T02:57:26.617772 #1541]  INFO -- : worker=0 ready
+I, [2019-02-23T02:57:26.644212 #1547]  INFO -- : worker=2 ready
+I, [2019-02-23T02:57:26.681725 #1553]  INFO -- : worker=4 ready
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+W, [2019-02-23T04:30:05.583613 #1553]  WARN -- : #<Unicorn::HttpServer:0x00007fe95ad00ef8>: worker (pid: 1553) exceeds memory limit (478972928.0 bytes > 454000624 bytes)
+W, [2019-02-23T04:30:05.583843 #1553]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 1553) alive: 5554 sec (trial 1)
+I, [2019-02-23T04:30:06.030571 #1106]  INFO -- : reaped #<Process::Status: pid 1553 exit 0> worker=4
+I, [2019-02-23T04:30:06.165779 #3271]  INFO -- : worker=4 ready
+W, [2019-02-23T05:14:30.145283 #3271]  WARN -- : #<Unicorn::HttpServer:0x00007fe95ad00ef8>: worker (pid: 3271) exceeds memory limit (460975104.0 bytes > 432574205 bytes)
+W, [2019-02-23T05:14:30.145568 #3271]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 3271) alive: 2441 sec (trial 1)
+I, [2019-02-23T05:14:30.400506 #1106]  INFO -- : reaped #<Process::Status: pid 3271 exit 0> worker=4
+I, [2019-02-23T05:14:30.538217 #5199]  INFO -- : worker=4 ready
+D, [2019-02-23T05:46:13.342904 #1106] DEBUG -- : waiting 31.0s after suspend/hibernation
+D, [2019-02-23T06:00:30.126269 #1106] DEBUG -- : waiting 31.0s after suspend/hibernation
+D, [2019-02-23T07:50:45.679219 #1106] DEBUG -- : waiting 31.0s after suspend/hibernation
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+I, [2019-02-23T09:15:25.015626 #1106]  INFO -- : reaped #<Process::Status: pid 1541 exit 0> worker=0
+I, [2019-02-23T09:15:25.015982 #1106]  INFO -- : reaped #<Process::Status: pid 1544 exit 0> worker=1
+I, [2019-02-23T09:15:25.016286 #1106]  INFO -- : reaped #<Process::Status: pid 1547 exit 0> worker=2
+I, [2019-02-23T09:15:25.016640 #1106]  INFO -- : reaped #<Process::Status: pid 1550 exit 0> worker=3
+I, [2019-02-23T09:15:25.016955 #1106]  INFO -- : reaped #<Process::Status: pid 5199 exit 0> worker=4
+I, [2019-02-23T09:15:25.017167 #1106]  INFO -- : master complete
