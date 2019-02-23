@@ -1,0 +1,12 @@
+app:
+    image: gitlab/gitlab-ce:latest
+    restart: always
+    hostname: 'lab.kramaos.org'
+    ports:
+      - 8088:80
+      - 8043:443
+      - 22:22
+    volumes:
+    - ./data/gitlab/config:/etc/gitlab:rw
+    - ./data/gitlab/logs:/var/log/gitlab:rw
+    - ./data/gitlab/data:/var/opt/gitlab:rw
